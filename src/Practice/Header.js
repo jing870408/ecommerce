@@ -3,13 +3,13 @@ import React, { Component } from "react";
 class Header extends Component {
   render(h) {
     return (
-      <header class="masthead">
-        <div class="container">
-          <div class="masthead-subheading">Welcome To Our Studio!</div>
-          <div class="masthead-heading text-uppercase">
+      <header className="masthead">
+        <div className="container">
+          <div className="masthead-subheading">Welcome To Our Studio!</div>
+          <div className="masthead-heading text-uppercase">
             It's Nice To Meet You
           </div>
-          <a class="btn btn-primary btn-xl text-uppercase" href="#services">
+          <a className="btn btn-primary btn-xl text-uppercase" href="#services">
             Tell Me More
           </a>
         </div>
